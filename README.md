@@ -4,6 +4,8 @@ Introduction to Python for MSc OR students with VBA background
 
 ## Suggested schedule
 
+Location: [65/2149 on Avenue Campus](http://id.southampton.ac.uk/point-of-service/workstations-65-2149).
+
 ### Day 1
 
 - 9.00 - 9.30: Help with software setup
