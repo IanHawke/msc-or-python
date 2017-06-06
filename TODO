@@ -9,8 +9,10 @@ important as we're using spyder, and editing (and hence re-importing) files. Bes
 approach is to show the import of a script through the console, then show the import
 of a file in a script, then always use scripts rather than the console from then on
 (so that spyder automagically re-imports on hitting "play").
-* Make more concrete exercises for the early material. The exercises created on the 
+* Make more concrete exercises for the early material. The exercises created on the
 fly worked ok, but more OR motivated ones would be nice.
+* Post-it notes weren't that useful here.
+* Installation issues, especially with `pulp`, especially on Windows. This means we need more helpers at specific times.
 
 
 ## Content issues
@@ -18,7 +20,13 @@ fly worked ok, but more OR motivated ones would be nice.
 * Monte Carlo and/vs Discrete Event. Given the balance this year we went with MC.
 @drvinceknight and @geraintpalmer have [`ciw`](http://ciw.readthedocs.io/) which is a
 DE simulator. There's not time for both unless we significantly reduce time on `pandas`
-or remove machine learning. When re-using this material, this will need checking 
+or remove machine learning. When re-using this material, this will need checking
 and re-balancing.
 * Linear Programming. The material is probably a bit (or a lot!) too much, especially
-with the `pulp` install issues on Windows. This probably needs trimming.
+with the `pulp` install issues on Windows. This probably needs trimming. Add links to exercises on `pulp` webpages.
+* Definitely reduce (or nearly eliminate) classes: weren't that useful, were confusing.
+* Spend more time on basics, particularly exercises. Functions vs lists (round vs square brackets)
+* `pandas` was very useful and popular. Do lots on this, especially plotting. More on real data? Messy data. Link to Data Carpentry.
+* ML was well received but the students knew more than we did and kept asking questions we couldn't answer...
+* An easier MC example, somehow. Build up from a `numpy` example? More on random distributions, but needs more time. Pictures!
+* Debugging and the variable explorer. Introduce alongside tab completion etc.
