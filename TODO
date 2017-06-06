@@ -1,0 +1,24 @@
+# TODOs for future events
+
+Many of these should go into issues, but we'll keep track at the top level too.
+
+## Teaching issues
+
+* Be more careful when transitioning from console to scripts. This is particularly
+important as we're using spyder, and editing (and hence re-importing) files. Best
+approach is to show the import of a script through the console, then show the import
+of a file in a script, then always use scripts rather than the console from then on
+(so that spyder automagically re-imports on hitting "play").
+* Make more concrete exercises for the early material. The exercises created on the 
+fly worked ok, but more OR motivated ones would be nice.
+
+
+## Content issues
+
+* Monte Carlo and/vs Discrete Event. Given the balance this year we went with MC.
+@drvinceknight and @geraintpalmer have [`ciw`](http://ciw.readthedocs.io/) which is a
+DE simulator. There's not time for both unless we significantly reduce time on `pandas`
+or remove machine learning. When re-using this material, this will need checking 
+and re-balancing.
+* Linear Programming. The material is probably a bit (or a lot!) too much, especially
+with the `pulp` install issues on Windows. This probably needs trimming.
