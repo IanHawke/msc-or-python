@@ -26,7 +26,32 @@ and re-balancing.
 with the `pulp` install issues on Windows. This probably needs trimming. Add links to exercises on `pulp` webpages.
 * Definitely reduce (or nearly eliminate) classes: weren't that useful, were confusing.
 * Spend more time on basics, particularly exercises. Functions vs lists (round vs square brackets)
-* `pandas` was very useful and popular. Do lots on this, especially plotting. More on real data? Messy data. Link to Data Carpentry.
+* `pandas` was very useful and popular. Do lots on this, especially plotting. More on real data? Messy data. Link to Data Carpentry. (*Now added*)
 * ML was well received but the students knew more than we did and kept asking questions we couldn't answer...
-* An easier MC example, somehow. Build up from a `numpy` example? More on random distributions, but needs more time. Pictures!
-* Debugging and the variable explorer. Introduce alongside tab completion etc.
+* An easier MC example, somehow. Build up from a `numpy` example? More on random distributions, but needs more time. Pictures! (CSMC suggests "There is a nice basic DES algorithm  for a standard queueing theory problem in Averil Law's book: Simulation Modeling and Analysis")
+* Debugging and the variable explorer. Introduce alongside tab completion etc. (*Now added*)
+
+## Event issues
+
+This course ran between the end of semester 2 and the start of the summer project. This means that
+
+* The students have all seen VBA;
+* The students know what their project is, and are therefore highly motivated to learn the Python needed for their project;
+* The students know more of the key theory that's used for examples (particularly LP, MC and ML).
+
+In the future it's suggested to have a Python training course in induction week. This has advantages - more time for the Python to sink in ahead of the project, for a start - but it also means none of the above points will hold.
+
+The suggestion from CSMC is to hold an intro to Python course in induction week, then a top-up/advanced topics course between the end of semester 2 and the start of the project. As a first pass, suggest the induction week course covers
+
+* Basics (with many more examples, go more slowly);
+* More numpy and Linear Algebra style examples, hinting to LP;
+* Lots of `pandas`
+
+while the top-up course covers
+
+* Quick refresher
+* LP
+* MC/DE
+* ML
+
+The latter would be a full day; the former at least a day, but a day and a half or even two days would be better.
